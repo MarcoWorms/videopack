@@ -5,13 +5,13 @@ A command-line interface (CLI) tool to unpack and pack videos into frames and au
 Unpack video into frames:
 
 ```bash
-$ videopack unpack input.mp4
+videopack unpack input.mp4
 ```
 
 Repack frames into video:
 
 ```bash
-$ videopack pack ./frames --fps 60
+videopack pack ./frames --fps 60
 ```
 
 ## Installation
