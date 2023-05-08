@@ -2,12 +2,17 @@
 
 A command-line interface (CLI) tool to unpack and pack videos into frames and audio using Python and MoviePy.
 
-## Features
+Unpack video into frames:
 
-- Unpack a video into individual frames and an audio file
-- Pack a folder of frames and an audio file into a video
-- Set custom frame rate (FPS) and input audio when packing
-- Specify output paths for unpacked frames and audio, as well as the packed video
+```bash
+$ videopack unpack input.mp4
+```
+
+Repack frames into video:
+
+```bash
+$ videopack pack ./frames --fps 60
+```
 
 ## Installation
 
