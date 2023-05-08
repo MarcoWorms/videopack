@@ -11,8 +11,8 @@ def unpack(video_path, output_folder, output_audio_path):
 
     # Load video
     video = VideoFileClip(video_path)
-    fps = video.iter_frames() / video.duration
-    print(f"FPS: {fps}")
+    # fps = video.iter_frames() / video.duration
+    # print(f"FPS: {fps}")
 
     # Extract and save audio
     print("Extracting audio...")
